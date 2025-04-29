@@ -8,7 +8,7 @@ A attempt to implement on a 2D array:
 Install the pypi packages with the `requirements.txt` file.
 
 ```bash
-usage: recoverNestedArray.py [-h] --rpc RPC --target TARGET --slot SLOT --lines LINES
+usage: recover2DArray.py [-h] --rpc RPC --target TARGET --slot SLOT --lines LINES
                              --columns COLUMNS
 
 options:
@@ -52,7 +52,7 @@ There is a sample code in `contracts/src/Array.sol`
 3. Run the script
 
 ```bash
-python recoverNestedArray.py --rpc http://127.0.0.1:8545 --target 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 --slot 0 --lines 4 --columns 15
+python recover2DArray.py --rpc http://127.0.0.1:8545 --target 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 --slot 0 --lines 4 --columns 15
 ```
 
 

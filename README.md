@@ -67,6 +67,6 @@ python recover2DArray.py --rpc http://127.0.0.1:8545 --target 0xe7f1725E7734CE28
 
 - [x] Write a solidity contract test in local
 
-- [ ] Implement the script on a 2D or 3D dimensions
+- [ ] Implement the script on a 3D or 4D dimensions and more
 
 - [ ] Nixify

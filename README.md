@@ -1,11 +1,16 @@
-A attempt to implement on a 2D array:
+An attempt to implement this on a 2D array:
 
 - https://www.rareskills.io/post/solidity-dynamic (nested array part)
 - https://docs.soliditylang.org/en/latest/internals/layout_in_storage.html#mappings-and-dynamic-arrays
 
+Also my answer to :
+
+- https://github.com/BreizhCTF/breizhctf-2025/tree/main/blockchain/welcome-game
+- https://github.com/MidnightFlag/qualifiers-challenges-2025/tree/master/Web3/Sublocku
+
 # Usage
 
-Install the pypi packages with the `requirements.txt` file.
+Install the pypi need packages with the `requirements.txt` file.
 
 ```bash
 usage: recover2DArray.py [-h] --rpc RPC --target TARGET --slot SLOT --lines LINES
@@ -58,10 +63,10 @@ python recover2DArray.py --rpc http://127.0.0.1:8545 --target 0xe7f1725E7734CE28
 
 # TODO
 
-- [x] Check that the script is working
+- [x]  Make script work 🦧
 
-- [x] Take arguments
-
-- [x] Write a solidity script file to test in local
+- [x] Write a solidity contract test in local
 
 - [ ] Implement the script on an array with more dimensions
+
+- [ ] Nixify

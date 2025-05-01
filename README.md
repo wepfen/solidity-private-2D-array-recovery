@@ -69,4 +69,4 @@ python recover2DArray.py --rpc http://127.0.0.1:8545 --target 0xe7f1725E7734CE28
 
 - [ ] Implement the script on a 3D or 4D dimensions and more
 
-- [ ] Nixify
+- [X] Nixify

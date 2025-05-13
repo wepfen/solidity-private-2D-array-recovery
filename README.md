@@ -1,4 +1,4 @@
-An attempt to implement this on a 2D array:
+An attempt to implement this on a 2D **DYNAMIC** array:
 
 - https://www.rareskills.io/post/solidity-dynamic (nested array part)
 - https://docs.soliditylang.org/en/latest/internals/layout_in_storage.html#mappings-and-dynamic-arrays
@@ -68,5 +68,7 @@ python recover2DArray.py --rpc http://127.0.0.1:8545 --target 0xe7f1725E7734CE28
 - [x] Write a solidity contract test in local
 
 - [ ] Implement the script on a 3D or 4D dimensions and more
+
+- [ ] Implement on static arrays too
 
 - [ ] Nixify
